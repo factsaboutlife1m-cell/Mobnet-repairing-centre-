@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand-blue: #292F91;
+    --brand-red: #D9272E;
+    --brand-dark: #333333;
+    --brand-gray: #6B7280;
+    --brand-light: #F5F7FB;
+    --brand-border: #E5E7EB;
+  }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: var(--brand-dark);
+    background-color: var(--brand-light);
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-heading {
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+/* Custom scrollbar and smooth utilities */
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: #292F91;
+  color: #ffffff;
+}

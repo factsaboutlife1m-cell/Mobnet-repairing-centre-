@@ -1,0 +1,6 @@
+{
+  "name": "MOBNET International",
+  "description": "Professional mobile hardware and software repairing training institute in Dhanbad, Jharkhand. A Division of SMTM Pvt. Ltd.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
