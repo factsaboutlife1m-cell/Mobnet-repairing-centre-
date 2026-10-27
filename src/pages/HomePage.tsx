@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { CourseCard } from '../components/CourseCard';
+import { StudentSuccessStories } from '../components/StudentSuccessStories';
 import { COURSES_DATA } from '../data/coursesData';
 import {
   ShieldCheck,
@@ -630,7 +631,10 @@ export const HomePage: React.FC = () => {
         </div>
       </section>
 
-      {/* SECTION 8 — ADMISSION CTA */}
+      {/* SECTION 8 — STUDENT SUCCESS STORIES (CAROUSEL) */}
+      <StudentSuccessStories />
+
+      {/* SECTION 9 — ADMISSION CTA */}
       <section className="py-16 bg-white border-t border-[#E5E7EB]">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-[#292F91] rounded-2xl text-white p-8 sm:p-12 shadow-md relative overflow-hidden">
